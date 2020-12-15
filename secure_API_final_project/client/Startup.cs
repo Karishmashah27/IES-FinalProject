@@ -47,7 +47,7 @@ namespace Client
 
                  config.Events = new OAuthEvents()
                  {
-                     /*OnCreatingTicket = context =>
+                     OnCreatingTicket = context =>
                     {
                         string accessToken1 = context.AccessToken;
                         var accessToken = accessToken1;
@@ -62,7 +62,7 @@ namespace Client
                         }
 
                         return Task.CompletedTask;
-                    }*/
+                    }
 
                  };
              });
